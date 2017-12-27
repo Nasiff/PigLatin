@@ -17,23 +17,23 @@ public class PigLatinModel
 
     }
 
-    public PigLatinModel(java.lang.String text)
+    public PigLatinModel(String text)
     {
         this.english = text;
         this.pig = "";
     }
 
-    public java.lang.String getEnglish()
+    public String getEnglish()
     {
         return this.english;
     }
 
-    public void setEnglish(java.lang.String text)
+    public void setEnglish(String text)
     {
         this.english = text;
     }
 
-    public java.lang.String getPig()
+    public String getPig()
     {
         return this.pig;
     }

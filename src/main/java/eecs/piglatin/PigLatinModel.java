@@ -10,6 +10,9 @@ public class PigLatinModel
     private String english;
     private String pig;
 
+    /**
+     * Initializes a default constructor by setting the fields to have the empty String
+     */
     public PigLatinModel()
     {
         this.english = "";
@@ -17,27 +20,55 @@ public class PigLatinModel
 
     }
 
+    /**
+     * Initializes the field that is to be translated by assigning a String text
+     * @param text
+     */
     public PigLatinModel(String text)
     {
         this.english = text;
         this.pig = "";
     }
 
+    /**
+     * Returns the String that is to be translated to PigLatin
+     * @return The String to be translated to Piglatin
+     */
     public String getEnglish()
     {
         return this.english;
     }
 
+    /**
+     * Sets the String of the field that is to be translated into PigLating
+     * @param text
+     */
     public void setEnglish(String text)
     {
         this.english = text;
     }
 
+    /**
+     * Returns the PigLatin translation of the current String
+     * @return The PigLatin translation
+     */
     public String getPig()
     {
         return this.pig;
     }
 
+    /**
+     * Translates this String to a PigLatin String.
+     * The String is converted to a lowercase PigLatin text and depending on the last
+     * letter/letters the appropriate PigLatin translation is determined.
+     * <p>
+     *     If the String has words that start with a vowel. Then add a "way" to the end of each word
+     *     Else take the consonant at the start of the word and then add it to the end of that word
+     *     along with a "ay" at the end or if the word has multiple consonants before its first
+     *     vowel then take all those characters and add it to the end of the word and then add "ay"
+     * </p>
+     *
+     */
     public void translate()
     {
         String sentence = this.english.toLowerCase();

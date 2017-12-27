@@ -1,8 +1,8 @@
 package eecs.piglatin;
 
+import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -12,7 +12,7 @@ import java.util.Locale;
 
 public class PigLatinActivity extends AppCompatActivity implements TextToSpeech.OnInitListener
 {
-    PigLatinModel model;
+    eecs.piglatin.PigLatinModel model;
     TextToSpeech tts;
 
 
@@ -24,7 +24,7 @@ public class PigLatinActivity extends AppCompatActivity implements TextToSpeech.
         setContentView(R.layout.activity_pig_latin);
 
         this.tts = new TextToSpeech(this, this);
-        model = new PigLatinModel();
+        model = new eecs.piglatin.PigLatinModel();
 
 
 

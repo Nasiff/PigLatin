@@ -1,7 +1,5 @@
 package eecs.piglatin;
 
-import java.util.Arrays;
-
 /**
  * Created by user on 3/13/17.
  */

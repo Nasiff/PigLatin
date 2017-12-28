@@ -22,7 +22,7 @@ public class PigLatinModel
 
     /**
      * Initializes the field that is to be translated by assigning a String text
-     * @param text
+     * @param text The Input string that is to be translated
      */
     public PigLatinModel(String text)
     {
@@ -41,7 +41,7 @@ public class PigLatinModel
 
     /**
      * Sets the String of the field that is to be translated into PigLating
-     * @param text
+     * @param text The Input text that is to be set to this String
      */
     public void setEnglish(String text)
     {

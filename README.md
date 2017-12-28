@@ -6,6 +6,6 @@ This App not only translates the inputted English words/sentences into PigLatin 
 I also implemented another button which cleared the input text box in which the user is asked to put in the English word/sentence.
 
 ### Screen Grabs
-![main screen](https://user-images.githubusercontent.com/29618544/34417226-50eb7450-ebc5-11e7-899d-1c42a4003126.png)
+<a href="url"><img src="https://user-images.githubusercontent.com/29618544/34417226-50eb7450-ebc5-11e7-899d-1c42a4003126.png" height="750" width="425" align="middle" ></a>
 
 Will add UI design in a later update!
